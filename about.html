@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Seyfedin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Bouncing animation */
+        
+        @keyframes bounce {
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-15px);
+            }
+        }
+        
+        .bounce {
+            animation: bounce 1s ease infinite;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+    <div class="max-w-4xl mx-auto p-8">
+        <h1 class="text-3xl font-extrabold text-center">About Me</h1>
+        <div class="flex flex-col md:flex-row items-center mt-6">
+            <img src="p2.jpg" alt="Seyfedin" class="shadow-lg opacity-50 md:w-1/4 rotate-90 rounded-2xl border-4 md:mr-6 mb-4 md:mb-0 bounce">
+            <p class="text-gray-700 text-center ">
+                I am Seyfedin, an undergraduate student at Debre Berhan University, passionate about software engineering and full-stack development. I specialize in building modern, scalable web and mobile applications with a focus on user experience. My skills include
+                HTML, CSS, Tailwind CSS, JavaScript, MongoDB, Node.js, and Flutter. I enjoy working on both front-end and back-end technologies, creating responsive websites and mobile applications that are both functional and user-friendly. I'm committed
+                to continuous learning and improving my skills to deliver high-quality software solutions.
+            </p>
+        </div>
+
+        <div class="text-center mt-8">
+            <a href="port.html" class="bg-yellow-500 text-white px-6 py-3 rounded-lg">back to home</a>
+        </div>
+    </div>
+</body>
+
+</html>
